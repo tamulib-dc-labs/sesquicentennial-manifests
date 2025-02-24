@@ -1,4 +1,4 @@
-from iiif_prezi3 import Manifest, config
+from iiif_prezi3 import Manifest, config, KeyValueString
 import base64
 import httpx
 import json
@@ -10,7 +10,8 @@ base_url = "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennia
 class TamuManifest:
     def __init__(self, data):
         self.data = data
-        self.info = self.get_based(self.data.get('filename'))
+        self.filename = self.data.get('filename') if '.jpg' in self.data['filename'] else f"{self.data['filename']}.jpg"
+        self.info = self.get_based(self.filename)
         self.thumbnail = self.get_thumbnail(self.info)
         self.output = f"sesquicentennial/{self.data.get('filename').split('.')[0]}.json"
         self.manifest = self.build()
@@ -20,8 +21,9 @@ class TamuManifest:
         manifest = Manifest(
             id=f"{manifest_id}.json",
             label=self.data.get('label'),
-            summary=self.data.get('summary'),
+            summary=self.data.get('caption'),
             thumbnail=self.thumbnail,
+            metadata=self.get_metadata(),
         )
         manifest.make_canvas_from_iiif(
             url=self.info,
@@ -42,25 +44,27 @@ class TamuManifest:
         decoded = encoded.decode("utf-8")
         return f"https://api-pre.library.tamu.edu/iiif/2/{decoded}"
 
-    @staticmethod
-    def get_thumbnail(base_uri):
-        print(f"{base_uri}/info.json")
-        image_response = httpx.get(f"{base_uri}/info.json", timeout=60).json()
-        size = image_response['sizes'][-2]
-        return {
-            "id": f"{base_uri}/full/{size['width']},/0/default.jpg",
-            "width": size['width'],
-            "height": size['height'],
-            "type": "Image",
-            "format": "image/jpeg",
-            "service": [
-                {
-                    "id": base_uri,
-                    "type": "ImageService3",
-                    "profile": "level2"
-                }
-            ]
-        }
+    def get_thumbnail(self, base_uri):
+        try:
+            print(f"{base_uri}/info.json")
+            image_response = httpx.get(f"{base_uri}/info.json", timeout=60).json()
+            size = image_response['sizes'][-2]
+            return {
+                "id": f"{base_uri}/full/{size['width']},/0/default.jpg",
+                "width": size['width'],
+                "height": size['height'],
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                    {
+                        "id": base_uri,
+                        "type": "ImageService3",
+                        "profile": "level2"
+                    }
+                ]
+            }
+        except:
+            print(self.data.get('filename'))
 
     def write(self):
         with open(f'manifests/{self.output}', 'w') as outfile:
@@ -69,6 +73,38 @@ class TamuManifest:
                     self.manifest, indent=2
                 )
             )
+
+    def get_metadata(self):
+        data = []
+        if self.data.get('filename', '') != "":
+            data.append(
+                KeyValueString(
+                    label="Filename",
+                    value=self.data.get('filename'),
+                )
+            )
+        if self.data.get('date', '') != "":
+            data.append(
+                KeyValueString(
+                    label="Date",
+                    value=self.data.get('date'),
+                )
+            )
+        if self.data.get('coords', '') != "":
+            data.append(
+                KeyValueString(
+                    label="Coordinates",
+                    value=self.data.get('coords'),
+                )
+            )
+        if self.data.get('caption', '') != "":
+            data.append(
+                KeyValueString(
+                    label="Caption",
+                    value=self.data.get('caption'),
+                )
+            )
+        return data
 
 
 
