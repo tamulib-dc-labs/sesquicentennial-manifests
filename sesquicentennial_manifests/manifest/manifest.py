@@ -22,11 +22,12 @@ class TamuManifest:
     def build(self):
         manifest_id = f"{base_url}/{self.data.get('filename').split('.')[0]}"
         features = self.get_navPlace(self.data.get('coords'))
+        summary = self.data.get('caption', "") if self.data.get('caption', "") != "" else " "
         if len(features) > 0:
             manifest = Manifest(
                 id=f"{manifest_id}.json",
                 label=self.data.get('label'),
-                summary=self.data.get('caption'),
+                summary=summary,
                 thumbnail=self.thumbnail,
                 metadata=self.get_metadata(),
                 navPlace={"features": self.get_navPlace(self.data.get('coords'))}
@@ -35,7 +36,7 @@ class TamuManifest:
             manifest = Manifest(
                 id=f"{manifest_id}.json",
                 label=self.data.get('label'),
-                summary=self.data.get('caption'),
+                summary=summary,
                 thumbnail=self.thumbnail,
                 metadata=self.get_metadata(),
                 navPlace={"features": self.get_navPlace(self.data.get('coords'))}
