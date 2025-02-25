@@ -1,4 +1,4 @@
-from iiif_prezi3 import Manifest, config, KeyValueString
+from iiif_prezi3 import Manifest, config, KeyValueString, load_bundled_extensions
 import base64
 import httpx
 import json
@@ -8,7 +8,10 @@ base_url = "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennia
 
 
 class TamuManifest:
-    def __init__(self, data):
+    def __init__(self, data, extensions=()):
+        self.extensions = load_bundled_extensions(
+            extensions=extensions
+        )
         self.data = data
         self.filename = self.data.get('filename') if '.jpg' in self.data['filename'] else f"{self.data['filename']}.jpg"
         self.info = self.get_based(self.filename)
@@ -18,13 +21,25 @@ class TamuManifest:
 
     def build(self):
         manifest_id = f"{base_url}/{self.data.get('filename').split('.')[0]}"
-        manifest = Manifest(
-            id=f"{manifest_id}.json",
-            label=self.data.get('label'),
-            summary=self.data.get('caption'),
-            thumbnail=self.thumbnail,
-            metadata=self.get_metadata(),
-        )
+        features = self.get_navPlace(self.data.get('coords'))
+        if len(features) > 0:
+            manifest = Manifest(
+                id=f"{manifest_id}.json",
+                label=self.data.get('label'),
+                summary=self.data.get('caption'),
+                thumbnail=self.thumbnail,
+                metadata=self.get_metadata(),
+                navPlace={"features": self.get_navPlace(self.data.get('coords'))}
+            )
+        else:
+            manifest = Manifest(
+                id=f"{manifest_id}.json",
+                label=self.data.get('label'),
+                summary=self.data.get('caption'),
+                thumbnail=self.thumbnail,
+                metadata=self.get_metadata(),
+                navPlace={"features": self.get_navPlace(self.data.get('coords'))}
+            )
         manifest.make_canvas_from_iiif(
             url=self.info,
             id=f"{manifest_id}/canvas/1",
@@ -35,6 +50,10 @@ class TamuManifest:
         )
         x = manifest.json(indent=2)
         manifest_as_json = json.loads(x)
+        manifest_as_json['@context'] = [
+            "http://iiif.io/api/extension/navplace/context.json",
+            "http://iiif.io/api/presentation/3/context.json"
+        ]
         return manifest_as_json
 
     @staticmethod
@@ -106,6 +125,29 @@ class TamuManifest:
             )
         return data
 
-
-
+    def get_navPlace(self, coords):
+        try:
+            return [
+                {
+                    "id": f"{base_url}/{self.data.get('filename').split('.')[0]}/notdereferenceable/feature/1",
+                    "type": "Feature",
+                    "properties": {
+                        "label": {
+                            "en": [
+                                self.data.get("label", "")
+                            ]
+                        }
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            float(coords.split(',')[-1].strip()),
+                            float(coords.split(',')[0].strip())
+                        ]
+                    }
+                }
+            ]
+        except ValueError:
+            print(f"No navPlace on: {self.filename}")
+            return []
 

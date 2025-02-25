@@ -16,5 +16,5 @@ with open('sesquicentennial_images.csv', 'r') as data_csv:
                 }
             )
 for row in all_data:
-    x = TamuManifest(row)
+    x = TamuManifest(row, ["navPlace.json"])
     x.write()
