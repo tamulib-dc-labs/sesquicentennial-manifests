@@ -124,9 +124,22 @@ class TamuManifest:
                     value=self.data.get('caption'),
                 )
             )
+        if self.data.get('label', '') != "":
+            data.append(
+                KeyValueString(
+                    label="Building Name",
+                    value=self.data.get('label'),
+                )
+            )
         return data
 
     def get_navPlace(self, coords):
+        if self.data.get('label', '') != self.data.get('caption', '') and self.data.get('caption', '') != "" and self.data.get('date', '') != "":
+            text_value = f"{self.data.get('label', '')} -- {self.data.get('date', '')} -- {self.data.get('caption', '')}"
+        elif self.data.get('label', '') != self.data.get('caption', '') and self.data.get('caption', '') != "":
+            text_value = f"{self.data.get('label', '')} -- {self.data.get('caption', '')}"
+        else:
+            text_value = f"{self.data.get('label', '')}"
         try:
             return [
                 {
@@ -135,7 +148,7 @@ class TamuManifest:
                     "properties": {
                         "label": {
                             "en": [
-                                self.data.get("label", "")
+                                text_value
                             ]
                         }
                     },
