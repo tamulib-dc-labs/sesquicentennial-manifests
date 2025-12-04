@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from urllib.parse import quote
 
 config.configs['helpers.auto_fields.AutoLang'].auto_lang = "en"
-base_url = "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history"
+base_url = "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history"
 
 
 class TamuManifest:

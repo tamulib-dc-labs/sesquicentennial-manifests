@@ -3,7 +3,7 @@
     "http://iiif.io/api/extension/navplace/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School.json",
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -20,7 +20,7 @@
     "type": "FeatureCollection",
     "features": [
       {
-        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/notdereferenceable/feature/1",
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/notdereferenceable/feature/1",
         "type": "Feature",
         "properties": {
           "label": {
@@ -57,7 +57,7 @@
   ],
   "items": [
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/canvas/1",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/canvas/1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -106,11 +106,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/annotation/1",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -127,14 +127,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/canvas/1"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/canvas/1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/canvas/2",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/canvas/2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -183,11 +183,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/annotation/2",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/annotation/2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -204,14 +204,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/canvas/2"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/canvas/2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/canvas/3",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/canvas/3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -260,11 +260,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/3",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/annotation/3",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/annotation/3",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -281,7 +281,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman_Training_School/canvas/3"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Fireman_Training_School/canvas/3"
             }
           ]
         }

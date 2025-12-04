@@ -3,7 +3,7 @@
     "http://iiif.io/api/extension/navplace/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home.json",
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -33,7 +33,7 @@
     "type": "FeatureCollection",
     "features": [
       {
-        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/notdereferenceable/feature/1",
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/notdereferenceable/feature/1",
         "type": "Feature",
         "properties": {
           "label": {
@@ -70,7 +70,7 @@
   ],
   "items": [
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/canvas/1",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/canvas/1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -119,11 +119,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/annotation/1",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -140,14 +140,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/canvas/1"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/canvas/1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/canvas/2",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/canvas/2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -196,11 +196,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/annotation/2",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/annotation/2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -217,14 +217,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/canvas/2"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/canvas/2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/canvas/3",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/canvas/3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -273,11 +273,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/3",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/annotation/3",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/annotation/3",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -294,7 +294,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Prexy%27s_Home/canvas/3"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Prexy%27s_Home/canvas/3"
             }
           ]
         }

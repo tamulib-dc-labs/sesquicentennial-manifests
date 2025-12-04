@@ -3,7 +3,7 @@
     "http://iiif.io/api/extension/navplace/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Century_Tree.json",
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Century_Tree.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -70,7 +70,7 @@
     "type": "FeatureCollection",
     "features": [
       {
-        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Century_Tree/notdereferenceable/feature/1",
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Century_Tree/notdereferenceable/feature/1",
         "type": "Feature",
         "properties": {
           "label": {
@@ -107,7 +107,7 @@
   ],
   "items": [
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Century_Tree/canvas/1",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Century_Tree/canvas/1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -156,11 +156,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Century_Tree/annotation/1",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Century_Tree/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -177,7 +177,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Century_Tree/canvas/1"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Century_Tree/canvas/1"
             }
           ]
         }

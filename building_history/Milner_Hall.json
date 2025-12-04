@@ -3,7 +3,7 @@
     "http://iiif.io/api/extension/navplace/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall.json",
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -70,7 +70,7 @@
     "type": "FeatureCollection",
     "features": [
       {
-        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/notdereferenceable/feature/1",
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/notdereferenceable/feature/1",
         "type": "Feature",
         "properties": {
           "label": {
@@ -107,7 +107,7 @@
   ],
   "items": [
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/1",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -144,11 +144,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/1",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -165,14 +165,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/1"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/2",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -221,11 +221,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/2",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -242,14 +242,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/2"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/3",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -286,11 +286,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/3",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/3",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/3",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -307,14 +307,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/3"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/4",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -351,11 +351,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/4",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/4",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/4",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/4",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -372,14 +372,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/4"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/5",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -416,11 +416,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/5",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/5",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/5",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/5",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -437,14 +437,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/5"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/6",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -481,11 +481,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/6",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/6",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/6",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/6",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -502,14 +502,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/6"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/7",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -558,11 +558,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/7",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/7",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/7",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/7",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -579,14 +579,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/7"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/8",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/8",
       "type": "Canvas",
       "label": {
         "en": [
@@ -635,11 +635,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/8",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/8",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/8",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/8",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -656,14 +656,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/8"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/9",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/9",
       "type": "Canvas",
       "label": {
         "en": [
@@ -700,11 +700,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/9",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/9",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/9",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/9",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -721,14 +721,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/9"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/9"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/10",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/10",
       "type": "Canvas",
       "label": {
         "en": [
@@ -777,11 +777,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/10",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/10",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/10",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/10",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -798,14 +798,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/10"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/10"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/11",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/11",
       "type": "Canvas",
       "label": {
         "en": [
@@ -842,11 +842,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/11",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/11",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/11",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/11",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -863,14 +863,14 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/11"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/11"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/12",
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/12",
       "type": "Canvas",
       "label": {
         "en": [
@@ -907,11 +907,11 @@
       ],
       "items": [
         {
-          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/12",
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/page/12",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/annotation/12",
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/annotation/12",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -928,7 +928,7 @@
                 ],
                 "format": "image/jpeg"
               },
-              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Milner_Hall/canvas/12"
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial-manifests/building_history/Milner_Hall/canvas/12"
             }
           ]
         }
