@@ -1,10 +1,9 @@
 from iiif_prezi3 import Manifest, config, KeyValueString, load_bundled_extensions
-import base64
-import httpx
 import json
+from datetime import datetime, timezone
 
 config.configs['helpers.auto_fields.AutoLang'].auto_lang = "en"
-base_url = "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial"
+base_url = "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history"
 
 
 class TamuManifest:
@@ -13,42 +12,48 @@ class TamuManifest:
             extensions=extensions
         )
         self.data = data
-        self.filename = self.data.get('filename') if '.jpg' in self.data['filename'] else f"{self.data['filename']}.jpg"
-        self.info = self.get_based(self.filename)
-        self.thumbnail = self.get_thumbnail(self.info)
-        self.output = f"sesquicentennial/{self.data.get('filename').split('.')[0]}.json"
+        self.info = self.data.get("based")
+        self.output = f"{self.data.get('label').split('.')[0].strip().replace(" ", "%20")}.json"
         self.manifest = self.build()
 
     def build(self):
-        manifest_id = f"{base_url}/{self.data.get('filename').split('.')[0]}"
-        features = self.get_navPlace(self.data.get('coords'))
-        summary = self.data.get('caption', "") if self.data.get('caption', "") != "" else " "
-        if len(features) > 0:
+        manifest_id = f"{base_url}/{self.data.get('label').split('.')[0].strip().replace(" ", "%20")}"
+        features = self.get_navPlace(self.data.get('coordinates'))
+        summary = self.data.get('summary', "") if self.data.get('summary', "") != "" else " "
+        nav_date = self.get_nav_date(self.data.get('date'))
+        if len(features) > 0 and nav_date:
             manifest = Manifest(
                 id=f"{manifest_id}.json",
                 label=self.data.get('label'),
                 summary=summary,
-                thumbnail=self.thumbnail,
                 metadata=self.get_metadata(),
-                navPlace={"features": self.get_navPlace(self.data.get('coords'))}
+                navPlace={"features": self.get_navPlace(self.data.get('coordinates'))},
+                navDate=nav_date,
+            )
+        elif len(features) > 0:
+            manifest = Manifest(
+                id=f"{manifest_id}.json",
+                label=self.data.get('label'),
+                summary=summary,
+                metadata=self.get_metadata(),
+                navPlace={"features": self.get_navPlace(self.data.get('coordinates'))}
             )
         else:
             manifest = Manifest(
                 id=f"{manifest_id}.json",
                 label=self.data.get('label'),
                 summary=summary,
-                thumbnail=self.thumbnail,
                 metadata=self.get_metadata(),
-                navPlace={"features": self.get_navPlace(self.data.get('coords'))}
+                navPlace={"features": self.get_navPlace(self.data.get('coordinates'))}
             )
-        manifest.make_canvas_from_iiif(
-            url=self.info,
-            id=f"{manifest_id}/canvas/1",
-            label="image 1",
-            anno_id=f"{manifest_id}/annotation/1",
-            anno_page_id=f"{base_url}/page/1",
-            thumbnail=self.thumbnail,
-        )
+        # manifest.create_thumbnail_from_iiif(self.info)
+        # manifest.make_canvas_from_iiif(
+        #     url=self.info,
+        #     id=f"{manifest_id}/canvas/1",
+        #     label="image 1",
+        #     anno_id=f"{manifest_id}/annotation/1",
+        #     anno_page_id=f"{base_url}/page/1",
+        # )
         x = manifest.json(indent=2)
         manifest_as_json = json.loads(x)
         manifest_as_json['@context'] = [
@@ -57,37 +62,8 @@ class TamuManifest:
         ]
         return manifest_as_json
 
-    @staticmethod
-    def get_based(identifier):
-        uri = f"https://live.staticflickr.com/4028/{identifier}"
-        encoded = base64.urlsafe_b64encode(bytes(uri, "utf-8"))
-        decoded = encoded.decode("utf-8")
-        return f"https://api-pre.library.tamu.edu/iiif/2/{decoded}"
-
-    def get_thumbnail(self, base_uri):
-        try:
-            print(f"{base_uri}/info.json")
-            image_response = httpx.get(f"{base_uri}/info.json", timeout=60).json()
-            size = image_response['sizes'][-2]
-            return {
-                "id": f"{base_uri}/full/{size['width']},/0/default.jpg",
-                "width": size['width'],
-                "height": size['height'],
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                    {
-                        "id": base_uri,
-                        "type": "ImageService3",
-                        "profile": "level2"
-                    }
-                ]
-            }
-        except:
-            print(self.data.get('filename'))
-
     def write(self):
-        with open(f'manifests/{self.output}', 'w') as outfile:
+        with open(f'building_history/{self.output}', 'w') as outfile:
             outfile.write(
                 json.dumps(
                     self.manifest, indent=2
@@ -96,42 +72,23 @@ class TamuManifest:
 
     def get_metadata(self):
         data = []
-        if self.data.get('filename', '') != "":
-            data.append(
-                KeyValueString(
-                    label="Filename",
-                    value=self.data.get('filename'),
+        all_metadata = self.data.get('metadata')
+        for k, v in all_metadata.items():
+            if v.strip() != "":
+                data.append(
+                    KeyValueString(
+                        label=k,
+                        value=v,
+                    )
                 )
-            )
-        if self.data.get('date', '') != "":
-            data.append(
-                KeyValueString(
-                    label="Date",
-                    value=self.data.get('date'),
-                )
-            )
-        if self.data.get('coords', '') != "":
-            data.append(
-                KeyValueString(
-                    label="Coordinates",
-                    value=self.data.get('coords'),
-                )
-            )
-        if self.data.get('caption', '') != "":
-            data.append(
-                KeyValueString(
-                    label="Caption",
-                    value=self.data.get('caption'),
-                )
-            )
-        if self.data.get('label', '') != "":
-            data.append(
-                KeyValueString(
-                    label="Building Name",
-                    value=self.data.get('label'),
-                )
-            )
         return data
+
+    def get_nav_date(self, value):
+        cleaned = value.replace("circa", "").strip().split("-")
+        if len(cleaned) == 1 and len(cleaned[0]) == 4:
+            return datetime(int(cleaned[0].strip()), 1, 1, tzinfo=timezone.utc)
+        else:
+            return None
 
     def get_navPlace(self, coords):
         if self.data.get('label', '') != self.data.get('caption', '') and self.data.get('caption', '') != "" and self.data.get('date', '') != "":
@@ -143,7 +100,7 @@ class TamuManifest:
         try:
             return [
                 {
-                    "id": f"{base_url}/{self.data.get('filename').split('.')[0]}/notdereferenceable/feature/1",
+                    "id": f"{base_url}/{self.data.get('label').split('.')[0].strip().replace(" ", "%20")}/notdereferenceable/feature/1",
                     "type": "Feature",
                     "properties": {
                         "label": {
@@ -162,6 +119,6 @@ class TamuManifest:
                 }
             ]
         except ValueError:
-            print(f"No navPlace on: {self.filename}")
+            print(f"No navPlace on: {self.data.get('filename')}")
             return []
 
