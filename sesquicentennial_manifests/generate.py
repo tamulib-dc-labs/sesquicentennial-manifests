@@ -1,13 +1,14 @@
 from csv import DictReader
 from manifest import TamuManifest
-import json
+from tqdm import tqdm
+
 
 all_data = []
 manifest_data = {}
 with open("updated_data.csv", 'r') as my_data:
     reader = DictReader(my_data)
     for row in reader:
-        if row["Mark Note"].strip() == "":
+        if row["Mark Note"].strip() == "" and row["Originating Image"].strip() != "":
             if row["Building Name"].strip() not in manifest_data.keys():
                 manifest_data[row["Building Name"].strip()] = {
                     "label": row["Building Name"].strip(),
@@ -31,7 +32,7 @@ with open("updated_data.csv", 'r') as my_data:
                         }
                     ]
                 }
-            else:
+            elif row["Originating Image"].strip() != "":
                 manifest_data[row["Building Name"].strip()]["canvases"].append(
                     {
                         "Photograph Date": row["Photograph Date"].strip(),
@@ -41,9 +42,12 @@ with open("updated_data.csv", 'r') as my_data:
                         "Image": row["Originating Image"].replace('/full/full/0/default.jpg', '/info.json'),
                     }
                 )
+            else:
+                pass
 for k, v in manifest_data.items():
     all_data.append(v)
 
-for item in all_data:
-    x = TamuManifest(item, ["navPlace.json"])
-    x.write()
+for item in tqdm(all_data):
+    if item["label"].strip() != "":
+        x = TamuManifest(item, ["navPlace.json"])
+        x.write()

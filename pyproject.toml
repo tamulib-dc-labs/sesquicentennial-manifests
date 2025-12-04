@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 iiif-prezi3 = "2.0.1"
 httpx = "^0.28.1"
+tqdm = "^4.67.1"
 
 
 [build-system]

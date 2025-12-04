@@ -1,6 +1,7 @@
 from iiif_prezi3 import Manifest, config, KeyValueString, load_bundled_extensions
 import json
 from datetime import datetime, timezone
+from urllib.parse import quote
 
 config.configs['helpers.auto_fields.AutoLang'].auto_lang = "en"
 base_url = "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history"
@@ -12,12 +13,11 @@ class TamuManifest:
             extensions=extensions
         )
         self.data = data
-        self.info = self.data.get("based")
-        self.output = f"{self.data.get('label').split('.')[0].strip().replace(" ", "%20")}.json"
+        self.output = f"{quote(self.data.get('label').split('.')[0].strip())}.json"
         self.manifest = self.build()
 
     def build(self):
-        manifest_id = f"{base_url}/{self.data.get('label').split('.')[0].strip().replace(" ", "%20")}"
+        manifest_id = f"{base_url}/{quote(self.data.get('label').split('.')[0].strip())}"
         features = self.get_navPlace(self.data.get('coordinates'))
         summary = self.data.get('summary', "") if self.data.get('summary', "") != "" else " "
         nav_date = self.get_nav_date(self.data.get('date'))
@@ -26,7 +26,7 @@ class TamuManifest:
                 id=f"{manifest_id}.json",
                 label=self.data.get('label'),
                 summary=summary,
-                metadata=self.get_metadata(),
+                metadata=self.get_metadata(self.data.get('metadata')),
                 navPlace={"features": self.get_navPlace(self.data.get('coordinates'))},
                 navDate=nav_date,
             )
@@ -35,7 +35,7 @@ class TamuManifest:
                 id=f"{manifest_id}.json",
                 label=self.data.get('label'),
                 summary=summary,
-                metadata=self.get_metadata(),
+                metadata=self.get_metadata(self.data.get('metadata')),
                 navPlace={"features": self.get_navPlace(self.data.get('coordinates'))}
             )
         else:
@@ -43,17 +43,31 @@ class TamuManifest:
                 id=f"{manifest_id}.json",
                 label=self.data.get('label'),
                 summary=summary,
-                metadata=self.get_metadata(),
+                metadata=self.get_metadata(self.data.get('metadata')),
                 navPlace={"features": self.get_navPlace(self.data.get('coordinates'))}
             )
-        # manifest.create_thumbnail_from_iiif(self.info)
-        # manifest.make_canvas_from_iiif(
-        #     url=self.info,
-        #     id=f"{manifest_id}/canvas/1",
-        #     label="image 1",
-        #     anno_id=f"{manifest_id}/annotation/1",
-        #     anno_page_id=f"{base_url}/page/1",
-        # )
+        if self.data.get('canvases')[0].get('Image').strip() != "":
+            manifest.create_thumbnail_from_iiif(
+                self.data.get('canvases')[0].get('Image')
+            )
+        i = 1
+        for canvas in self.data.get('canvases'):
+            manifest.make_canvas_from_iiif(
+                url=canvas.get('Image'),
+                id=f"{manifest_id}/canvas/{i}",
+                label=canvas.get('Filename'),
+                metadata=self.get_metadata(
+                    {
+                        "Photograph Date": canvas.get("Photograph Date"),
+                        "Filename": canvas.get("Filename"),
+                        "Photo Description": canvas.get("Photo Description"),
+                        "Ark": canvas.get("Ark"),
+                    }
+                ),
+                anno_id=f"{manifest_id}/annotation/{i}",
+                anno_page_id=f"{base_url}/page/{i}",
+            )
+            i += 1
         x = manifest.json(indent=2)
         manifest_as_json = json.loads(x)
         manifest_as_json['@context'] = [
@@ -70,9 +84,8 @@ class TamuManifest:
                 )
             )
 
-    def get_metadata(self):
+    def get_metadata(self, all_metadata):
         data = []
-        all_metadata = self.data.get('metadata')
         for k, v in all_metadata.items():
             if v.strip() != "":
                 data.append(
@@ -100,7 +113,7 @@ class TamuManifest:
         try:
             return [
                 {
-                    "id": f"{base_url}/{self.data.get('label').split('.')[0].strip().replace(" ", "%20")}/notdereferenceable/feature/1",
+                    "id": f"{base_url}/{quote(self.data.get('label').split('.')[0].strip())}/notdereferenceable/feature/1",
                     "type": "Feature",
                     "properties": {
                         "label": {
@@ -119,6 +132,6 @@ class TamuManifest:
                 }
             ]
         except ValueError:
-            print(f"No navPlace on: {self.data.get('filename')}")
+            print(f"No navPlace on: {self.data.get('label')}")
             return []
 
