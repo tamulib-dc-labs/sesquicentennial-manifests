@@ -1,0 +1,291 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Fireman Training School"
+    ]
+  },
+  "metadata": [],
+  "summary": {
+    "en": [
+      " "
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Fireman Training School"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.35504742733328,
+            30.580499400604065
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDIvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDEudGlm/full/778,/0/default.jpg",
+      "type": "Image",
+      "height": 978,
+      "width": 778,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDIvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDEudGlm",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fireman Training School 1.tif"
+        ]
+      },
+      "height": 3913,
+      "width": 3111,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Fireman Training School 1.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photo Description"
+            ]
+          },
+          "value": {
+            "en": [
+              "new fireman training school - may not be same as others"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2dk8m"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDIvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDEudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3913,
+                "width": 3111,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDIvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDEudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fireman Training School 9.tif"
+        ]
+      },
+      "height": 1928,
+      "width": 2718,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Fireman Training School 9.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photo Description"
+            ]
+          },
+          "value": {
+            "en": [
+              "Fire Field Office and Recruit Dormitory"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d28s4x"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDMvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDkudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1928,
+                "width": 2718,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDMvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDkudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fireman Training School 10.tif"
+        ]
+      },
+      "height": 1924,
+      "width": 2718,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Fireman Training School 10.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photo Description"
+            ]
+          },
+          "value": {
+            "en": [
+              "Communications Tower at the Fireman's Training School"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2533q"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDQvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDEwLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1924,
+                "width": 2718,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDQvcGFnZXMvcGFnZV8wL2ZpbGVzL0ZpcmVtYW4lMjBUcmFpbmluZyUyMFNjaG9vbCUyMDEwLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Fireman%20Training%20School/canvas/3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
