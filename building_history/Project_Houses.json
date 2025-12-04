@@ -1,0 +1,261 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Project Houses"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1937"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "The project houses,or cooperative housing was housing for students during and after the Great Depression. Students were required to bring milking cows and chickens and do their own cooking and cleaning. Project houses were approved in 1937."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "The project houses,or cooperative housing was housing for students during and after the Great Depression. Students were required to bring milking cows and chickens and do their own cooking and cleaning. Project houses were approved in 1937."
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDYvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAxLnRpZg==/full/561,/0/default.jpg",
+      "type": "Image",
+      "height": 332,
+      "width": 561,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDYvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAxLnRpZg==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Project 1.tif"
+        ]
+      },
+      "height": 1327,
+      "width": 2245,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Project 1.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d20p8x"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDYvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAxLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1327,
+                "width": 2245,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDYvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAxLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Project 2.tif"
+        ]
+      },
+      "height": 1030,
+      "width": 1760,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Project 2.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2vw47"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDcvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAyLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1030,
+                "width": 1760,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDcvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAyLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Project 3.tif"
+        ]
+      },
+      "height": 1022,
+      "width": 1740,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Project 3.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2r64d"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDgvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAzLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1022,
+                "width": 1740,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy82NDgvcGFnZXMvcGFnZV8wL2ZpbGVzL1Byb2plY3QlMjAzLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Project_Houses/canvas/3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

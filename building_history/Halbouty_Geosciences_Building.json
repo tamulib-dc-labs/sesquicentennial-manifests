@@ -1,0 +1,406 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Halbouty Geosciences Building"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Alternative Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Petroleum Engineering Experiment Station and Geology Building"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1932"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "Present"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "Halbouty was built in 1932. This building was originally known as the Petroleum Engineering Experiment Station and Geology Building. The building originally featured a central tower concealing a water tank. The tower was removed in 1972 because cast stone facings on it had worked loose for a number of years and posed a danger should they fall. The building was renamed in 1977 for Texas petroleum engineer and geologist Michael T. Halbouty, class of 1930."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Sources"
+        ]
+      },
+      "value": {
+        "en": [
+          "1932-Present"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Halbouty was built in 1932. This building was originally known as the Petroleum Engineering Experiment Station and Geology Building. The building originally featured a central tower concealing a water tank. The tower was removed in 1972 because cast stone facings on it had worked loose for a number of years and posed a danger should they fall. The building was renamed in 1977 for Texas petroleum engineer and geologist Michael T. Halbouty, class of 1930."
+    ]
+  },
+  "navDate": "1932-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Halbouty Geosciences Building"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34030986010444,
+            30.618731232975577
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zNzgvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjIxMjUxNzdfMTM4MmMxZWYxMV9vLmpwZw==/full/891,/0/default.jpg",
+      "type": "Image",
+      "height": 540,
+      "width": 891,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zNzgvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjIxMjUxNzdfMTM4MmMxZWYxMV9vLmpwZw==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "2822125177_1382c1ef11_o.jpg"
+        ]
+      },
+      "height": 1079,
+      "width": 1782,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1930"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "2822125177_1382c1ef11_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2qk8d"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zNzgvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjIxMjUxNzdfMTM4MmMxZWYxMV9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1079,
+                "width": 1782,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zNzgvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjIxMjUxNzdfMTM4MmMxZWYxMV9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "2822957088_9dfb1a2e61_o.jpg"
+        ]
+      },
+      "height": 921,
+      "width": 1282,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "circa 1930"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "2822957088_9dfb1a2e61_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2ks53"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zNzkvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjI5NTcwODhfOWRmYjFhMmU2MV9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 921,
+                "width": 1282,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zNzkvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjI5NTcwODhfOWRmYjFhMmU2MV9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "2822960628_4da04d0343_o.jpg"
+        ]
+      },
+      "height": 894,
+      "width": 900,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "2822960628_4da04d0343_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2g33h"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zODAvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjI5NjA2MjhfNGRhMDRkMDM0M19vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 894,
+                "width": 900,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zODAvcGFnZXMvcGFnZV8wL2ZpbGVzLzI4MjI5NjA2MjhfNGRhMDRkMDM0M19vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "3963970276_127f6e10b8_o.jpg"
+        ]
+      },
+      "height": 1461,
+      "width": 1784,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "3963970276_127f6e10b8_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2b906"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/annotation/4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zODEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM5NjM5NzAyNzZfMTI3ZjZlMTBiOF9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1461,
+                "width": 1784,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zODEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM5NjM5NzAyNzZfMTI3ZjZlMTBiOF9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Halbouty_Geosciences_Building/canvas/4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

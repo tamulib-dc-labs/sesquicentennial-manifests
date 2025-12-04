@@ -1,0 +1,365 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blocker Building"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1981"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "Present"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "The Blocker Building was erected in 1981. Initally known as the Academic and Agency Building when it opened in 1981, it was dedicated in 1983 to John R. Blocker '45, former member of the Texas A&M University Board of Regents."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "The Blocker Building was erected in 1981. Initally known as the Academic and Agency Building when it opened in 1981, it was dedicated in 1983 to John R. Blocker '45, former member of the Texas A&M University Board of Regents."
+    ]
+  },
+  "navDate": "1981-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Blocker Building"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.3420850202925,
+            30.61950739870471
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzUvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjAzLnRpZg==/full/969,/0/default.jpg",
+      "type": "Image",
+      "height": 771,
+      "width": 969,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzUvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjAzLnRpZg==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Blocker 3.tif"
+        ]
+      },
+      "height": 3083,
+      "width": 3877,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1982"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Blocker 3.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photo Description"
+            ]
+          },
+          "value": {
+            "en": [
+              "This is a photograph of Blocker with the O&M Building to the left."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2g89h"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzUvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjAzLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3083,
+                "width": 3877,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzUvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjAzLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Blocker 5.tif"
+        ]
+      },
+      "height": 3139,
+      "width": 3889,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1982"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Blocker 5.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photo Description"
+            ]
+          },
+          "value": {
+            "en": [
+              "This is a photograph of the Blocker building."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2bg8z"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzYvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjA1LnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3139,
+                "width": 3889,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzYvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjA1LnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Blocker 7.tif"
+        ]
+      },
+      "height": 1960,
+      "width": 1543,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1990"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Blocker 7.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photo Description"
+            ]
+          },
+          "value": {
+            "en": [
+              "This is a photograph of the Blocker building."
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d26s49"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzcvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjA3LnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1960,
+                "width": 1543,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMzcvcGFnZXMvcGFnZV8wL2ZpbGVzL0Jsb2NrZXIlMjA3LnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Blocker_Building/canvas/3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

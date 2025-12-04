@@ -1,0 +1,264 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Hughes Hall"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1966"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "Present"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "Hughes Hall was built in 1966 at a cost of $38,957."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Sources"
+        ]
+      },
+      "value": {
+        "en": [
+          "1964-present"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Hughes Hall was built in 1966 at a cost of $38,957."
+    ]
+  },
+  "navDate": "1966-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Hughes Hall"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34496789569613,
+            30.615302350829253
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80MjEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDYxNDk1MTFfMDI4ZDg3ZWI0Nl9vLmpwZw==/full/949,/0/default.jpg",
+      "type": "Image",
+      "height": 745,
+      "width": 949,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80MjEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDYxNDk1MTFfMDI4ZDg3ZWI0Nl9vLmpwZw==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "3546149511_028d87eb46_o.jpg"
+        ]
+      },
+      "height": 2981,
+      "width": 3796,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1969"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "3546149511_028d87eb46_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d25g8d"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80MjEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDYxNDk1MTFfMDI4ZDg3ZWI0Nl9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2981,
+                "width": 3796,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80MjEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDYxNDk1MTFfMDI4ZDg3ZWI0Nl9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "4387103845_026f82aaff_o.jpg"
+        ]
+      },
+      "height": 846,
+      "width": 953,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1972"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "4387103845_026f82aaff_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d21p6g"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80MjIvcGFnZXMvcGFnZV8wL2ZpbGVzLzQzODcxMDM4NDVfMDI2ZjgyYWFmZl9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 846,
+                "width": 953,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80MjIvcGFnZXMvcGFnZV8wL2ZpbGVzLzQzODcxMDM4NDVfMDI2ZjgyYWFmZl9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Hughes_Hall/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

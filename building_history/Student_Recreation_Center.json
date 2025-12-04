@@ -1,0 +1,813 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Student Recreation Center"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1995"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "Present"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "The Student Recreation Center was erected in 1995 at a cost of $334,642."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "The Student Recreation Center was erected in 1995 at a cost of $334,642."
+    ]
+  },
+  "navDate": "1995-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Student Recreation Center"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34293499153371,
+            30.60750780527784
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjAvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDEudGlm/full/642,/0/default.jpg",
+      "type": "Image",
+      "height": 420,
+      "width": 642,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjAvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDEudGlm",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 1.tif"
+        ]
+      },
+      "height": 3359,
+      "width": 5132,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 1.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d24w7v"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjAvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDEudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3359,
+                "width": 5132,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjAvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDEudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 2.tif"
+        ]
+      },
+      "height": 3332,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 2.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2163h"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjEvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDIudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3332,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjEvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDIudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 3.tif"
+        ]
+      },
+      "height": 3159,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 3.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2wg99"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjIvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDMudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3159,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjIvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDMudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 4.tif"
+        ]
+      },
+      "height": 3319,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 4.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2rp8r"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjMvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDQudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3319,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjMvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDQudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 5.tif"
+        ]
+      },
+      "height": 3159,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 5.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2n04d"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjQvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDUudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3159,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjQvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDUudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 6.tif"
+        ]
+      },
+      "height": 3345,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 6.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2h62g"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjUvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDYudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3345,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjUvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDYudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 7.tif"
+        ]
+      },
+      "height": 3159,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 7.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2ch0k"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjYvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDcudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3159,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjYvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDcudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 8.tif"
+        ]
+      },
+      "height": 3332,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 8.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d27p7q"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjcvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDgudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3332,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjcvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDgudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 9.tif"
+        ]
+      },
+      "height": 3505,
+      "width": 5132,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 9.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d24054"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/9",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjgvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDkudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3505,
+                "width": 5132,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjgvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDkudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 10.tif"
+        ]
+      },
+      "height": 3345,
+      "width": 5132,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 10.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2062t"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/10",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/10",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjkvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDEwLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3345,
+                "width": 5132,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MjkvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDEwLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Rec 11.tif"
+        ]
+      },
+      "height": 3359,
+      "width": 5145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Rec 11.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2vh19"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/annotation/11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MzAvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDExLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3359,
+                "width": 5145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83MzAvcGFnZXMvcGFnZV8wL2ZpbGVzL1JlYyUyMDExLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Student_Recreation_Center/canvas/11"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

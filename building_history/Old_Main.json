@@ -1,0 +1,1347 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Old Main"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Alternative Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Main Building"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1876"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "1912"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "Old Main was built in September 1876 at an original cost of $100,000. It was built of brick made from local clay that was fired on site. It was destroyed by fire in 1912. After it burned, the remaining walls were pulled down by students with ropes following artillery barrages, rifle fire, and dynamite charges. The Academic Building building now stands on the site previously occupied by Old Main."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Sources"
+        ]
+      },
+      "value": {
+        "en": [
+          "1875-1912. Burned in 1912."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Old Main was built in September 1876 at an original cost of $100,000. It was built of brick made from local clay that was fired on site. It was destroyed by fire in 1912. After it burned, the remaining walls were pulled down by students with ropes following artillery barrages, rifle fire, and dynamite charges. The Academic Building building now stands on the site previously occupied by Old Main."
+    ]
+  },
+  "navDate": "1876-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Old Main"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34076212432655,
+            30.615908133283238
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDI4MTM2MzVfNDQ1MTFkMDU0ZV9vLmpwZw==/full/541,/0/default.jpg",
+      "type": "Image",
+      "height": 338,
+      "width": 541,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDI4MTM2MzVfNDQ1MTFkMDU0ZV9vLmpwZw==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "3542813635_44511d054e_o.jpg"
+        ]
+      },
+      "height": 1350,
+      "width": 2164,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "3542813635_44511d054e_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2cd1x"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDI4MTM2MzVfNDQ1MTFkMDU0ZV9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1350,
+                "width": 2164,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1NDI4MTM2MzVfNDQ1MTFkMDU0ZV9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "4755733000_9615c24d54_o.jpg"
+        ]
+      },
+      "height": 1207,
+      "width": 1715,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "4755733000_9615c24d54_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d27k82"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTIvcGFnZXMvcGFnZV8wL2ZpbGVzLzQ3NTU3MzMwMDBfOTYxNWMyNGQ1NF9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1207,
+                "width": 1715,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTIvcGFnZXMvcGFnZV8wL2ZpbGVzLzQ3NTU3MzMwMDBfOTYxNWMyNGQ1NF9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "3534029724_2bf8db83aa_o.jpg"
+        ]
+      },
+      "height": 2040,
+      "width": 2820,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1902"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "3534029724_2bf8db83aa_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d23w65"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTMvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1MzQwMjk3MjRfMmJmOGRiODNhYV9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2040,
+                "width": 2820,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTMvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1MzQwMjk3MjRfMmJmOGRiODNhYV9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "3534028438_a5ee039896_o.jpg"
+        ]
+      },
+      "height": 2042,
+      "width": 2800,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1894"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "3534028438_a5ee039896_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d20335"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTQvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1MzQwMjg0MzhfYTVlZTAzOTg5Nl9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2042,
+                "width": 2800,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTQvcGFnZXMvcGFnZV8wL2ZpbGVzLzM1MzQwMjg0MzhfYTVlZTAzOTg5Nl9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 105.tif"
+        ]
+      },
+      "height": 1355,
+      "width": 1956,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1912"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 105.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2vd0w"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTUvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAxMDUudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1355,
+                "width": 1956,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTUvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAxMDUudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main Negative 115.tif"
+        ]
+      },
+      "height": 1495,
+      "width": 1832,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main Negative 115.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2qp72"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTYvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjBOZWdhdGl2ZSUyMDExNS50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1495,
+                "width": 1832,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTYvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjBOZWdhdGl2ZSUyMDExNS50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 2.tif"
+        ]
+      },
+      "height": 3175,
+      "width": 3897,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 2.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2kw54"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTcvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAyLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3175,
+                "width": 3897,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTcvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAyLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 44.tif"
+        ]
+      },
+      "height": 1940,
+      "width": 2726,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1890s"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 44.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2g625"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTgvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA0NC50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1940,
+                "width": 2726,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTgvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA0NC50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 45.tif"
+        ]
+      },
+      "height": 1936,
+      "width": 2790,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 45.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2bd07"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/9",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTkvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA0NS50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1936,
+                "width": 2790,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NTkvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA0NS50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 57.tif"
+        ]
+      },
+      "height": 1347,
+      "width": 2145,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1910"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 57.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d26p8s"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/10",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/10",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjAvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA1Ny50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1347,
+                "width": 2145,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjAvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA1Ny50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 58.tif"
+        ]
+      },
+      "height": 3191,
+      "width": 3913,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 58.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d22w43"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjEvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA1OC50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3191,
+                "width": 3913,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjEvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA1OC50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 61.tif"
+        ]
+      },
+      "height": 1379,
+      "width": 2157,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1910s"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 61.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2z63w"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/12",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/12",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjIvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA2MS50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1379,
+                "width": 2157,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjIvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA2MS50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/13",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main with paper.tif"
+        ]
+      },
+      "height": 2411,
+      "width": 1371,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main with paper.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2tc9n"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/13",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/13",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjMvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjB3aXRoJTIwcGFwZXIudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2411,
+                "width": 1371,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjMvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjB3aXRoJTIwcGFwZXIudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/14",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 71.tif"
+        ]
+      },
+      "height": 1271,
+      "width": 2068,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1912"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 71.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2pp84"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/14",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjQvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA3MS50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1271,
+                "width": 2068,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjQvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA3MS50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 74.tif"
+        ]
+      },
+      "height": 1275,
+      "width": 2068,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1912"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 74.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2jw4f"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/15",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/15",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjUvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA3NC50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1275,
+                "width": 2068,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjUvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjA3NC50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/16",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 107.tif"
+        ]
+      },
+      "height": 1792,
+      "width": 2502,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1912"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 107.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2f637"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/16",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/16",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjYvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAxMDcudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1792,
+                "width": 2502,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjYvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAxMDcudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/17",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Old Main 119.tif"
+        ]
+      },
+      "height": 3195,
+      "width": 3905,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1912"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Old Main 119.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d29d0x"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/annotation/17",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjcvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAxMTkudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3195,
+                "width": 3905,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy81NjcvcGFnZXMvcGFnZV8wL2ZpbGVzL09sZCUyME1haW4lMjAxMTkudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Old_Main/canvas/17"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

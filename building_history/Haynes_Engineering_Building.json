@@ -1,0 +1,767 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Haynes Engineering Building"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Alternative Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Veterinary Hospital, Civil Engineering Building"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1932"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "Present"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "Haynes Engineering Building was built in 1932 as the Veterinary Hospital at a cost of $142,852.48. It was originally associated with three other smaller structures in its vicinity: a veterinary anatomy laboratory and two stables. After Veterinary Medicine moved to west campus, the Veterinary Hospital was repurposed and known for many years as the Civil Engineering Building."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Sources"
+        ]
+      },
+      "value": {
+        "en": [
+          "1932-Present"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Haynes Engineering Building was built in 1932 as the Veterinary Hospital at a cost of $142,852.48. It was originally associated with three other smaller structures in its vicinity: a veterinary anatomy laboratory and two stables. After Veterinary Medicine moved to west campus, the Veterinary Hospital was repurposed and known for many years as the Civil Engineering Building."
+    ]
+  },
+  "navDate": "1932-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Haynes Engineering Building"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.33894522032836,
+            30.619679002376873
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM4NDI5NjU3NzBfNTVkMGQwYjI4Zl9vLmpwZw==/full/637,/0/default.jpg",
+      "type": "Image",
+      "height": 456,
+      "width": 637,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM4NDI5NjU3NzBfNTVkMGQwYjI4Zl9vLmpwZw==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "3842965770_55d0d0b28f_o.jpg"
+        ]
+      },
+      "height": 1823,
+      "width": 2546,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "1950"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "3842965770_55d0d0b28f_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d26g7b"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM4NDI5NjU3NzBfNTVkMGQwYjI4Zl9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1823,
+                "width": 2546,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDEvcGFnZXMvcGFnZV8wL2ZpbGVzLzM4NDI5NjU3NzBfNTVkMGQwYjI4Zl9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "4053124577_48daee1aa5_o.jpg"
+        ]
+      },
+      "height": 1943,
+      "width": 1336,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1950"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "4053124577_48daee1aa5_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d22s5f"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDIvcGFnZXMvcGFnZV8wL2ZpbGVzLzQwNTMxMjQ1NzdfNDhkYWVlMWFhNV9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1943,
+                "width": 1336,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDIvcGFnZXMvcGFnZV8wL2ZpbGVzLzQwNTMxMjQ1NzdfNDhkYWVlMWFhNV9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "4053866274_f03f8a9480_o.jpg"
+        ]
+      },
+      "height": 1330,
+      "width": 1890,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "4053866274_f03f8a9480_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2z02f"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDMvcGFnZXMvcGFnZV8wL2ZpbGVzLzQwNTM4NjYyNzRfZjAzZjhhOTQ4MF9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1330,
+                "width": 1890,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDMvcGFnZXMvcGFnZV8wL2ZpbGVzLzQwNTM4NjYyNzRfZjAzZjhhOTQ4MF9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "4053124747_e8ea69c08e_o.jpg"
+        ]
+      },
+      "height": 2273,
+      "width": 2815,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "4053124747_e8ea69c08e_o.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2t90j"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDQvcGFnZXMvcGFnZV8wL2ZpbGVzLzQwNTMxMjQ3NDdfZThlYTY5YzA4ZV9vLmpwZw==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2273,
+                "width": 2815,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDQvcGFnZXMvcGFnZV8wL2ZpbGVzLzQwNTMxMjQ3NDdfZThlYTY5YzA4ZV9vLmpwZw==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Civil Engineering Vet Science 3.tif"
+        ]
+      },
+      "height": 2570,
+      "width": 3311,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1933"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Civil Engineering Vet Science 3.tif"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDUvcGFnZXMvcGFnZV8wL2ZpbGVzL0NpdmlsJTIwRW5naW5lZXJpbmclMjBWZXQlMjBTY2llbmNlJTIwMy50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2570,
+                "width": 3311,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDUvcGFnZXMvcGFnZV8wL2ZpbGVzL0NpdmlsJTIwRW5naW5lZXJpbmclMjBWZXQlMjBTY2llbmNlJTIwMy50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CE  7.tif"
+        ]
+      },
+      "height": 3219,
+      "width": 3921,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1942"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "CE  7.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2pg7p"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDYvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwJTIwNy50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3219,
+                "width": 3921,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDYvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwJTIwNy50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CE 3.tif"
+        ]
+      },
+      "height": 1521,
+      "width": 2628,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1944"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "CE 3.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2js65"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDcvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwMy50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1521,
+                "width": 2628,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDcvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwMy50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CE 4.tif"
+        ]
+      },
+      "height": 3175,
+      "width": 3929,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1935"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "CE 4.tif"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDgvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwNC50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3175,
+                "width": 3929,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMDgvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwNC50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CE 5.tif"
+        ]
+      },
+      "height": 3119,
+      "width": 3881,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1942"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "CE 5.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2f02s"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/9",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/annotation/9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMTAvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwNS50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3119,
+                "width": 3881,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMTAvcGFnZXMvcGFnZV8wL2ZpbGVzL0NFJTIwNS50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Haynes_Engineering_Building/canvas/9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

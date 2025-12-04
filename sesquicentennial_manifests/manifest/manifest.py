@@ -13,11 +13,11 @@ class TamuManifest:
             extensions=extensions
         )
         self.data = data
-        self.output = f"{quote(self.data.get('label').split('.')[0].strip())}.json"
+        self.output = f"{self.data.get('label').replace(' ', '_').strip()}.json"
         self.manifest = self.build()
 
     def build(self):
-        manifest_id = f"{base_url}/{quote(self.data.get('label').split('.')[0].strip())}"
+        manifest_id = f"{base_url}/{quote(self.data.get('label').replace(' ', '_').strip())}"
         features = self.get_navPlace(self.data.get('coordinates'))
         summary = self.data.get('summary', "") if self.data.get('summary', "") != "" else " "
         nav_date = self.get_nav_date(self.data.get('date'))
@@ -113,7 +113,7 @@ class TamuManifest:
         try:
             return [
                 {
-                    "id": f"{base_url}/{quote(self.data.get('label').split('.')[0].strip())}/notdereferenceable/feature/1",
+                    "id": f"{base_url}/{quote(self.data.get('label').replace(' ', '_').strip())}/notdereferenceable/feature/1",
                     "type": "Feature",
                     "properties": {
                         "label": {

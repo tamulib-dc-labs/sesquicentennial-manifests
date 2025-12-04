@@ -1,0 +1,187 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Medical_Sciences_Building.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Medical Sciences Building"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Alternative Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Reynolds Medical Science Building"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1983"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "Present"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "The Reynolds Medical Science Building was built in 1983. It is named for Joe H. Reynolds, who served as a marine in WWII and Korea and was a member of the Texas A&M University System Board of Regents from 1973-81 and 1983-89."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "The Reynolds Medical Science Building was built in 1983. It is named for Joe H. Reynolds, who served as a marine in WWII and Korea and was a member of the Texas A&M University System Board of Regents from 1973-81 and 1983-89."
+    ]
+  },
+  "navDate": "1983-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Medical_Sciences_Building/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Medical Sciences Building"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.35197909613213,
+            30.611183665796275
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80NzgvcGFnZXMvcGFnZV8wL2ZpbGVzL01lZGljYWwlMjBTY2llbmNlcyUyMEJ1aWxkaW5nJTIwMy50aWY=/full/956,/0/default.jpg",
+      "type": "Image",
+      "height": 654,
+      "width": 956,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80NzgvcGFnZXMvcGFnZV8wL2ZpbGVzL01lZGljYWwlMjBTY2llbmNlcyUyMEJ1aWxkaW5nJTIwMy50aWY=",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Medical_Sciences_Building/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Medical Sciences Building 3.tif"
+        ]
+      },
+      "height": 1307,
+      "width": 1912,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1983"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Medical Sciences Building 3.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2wp7m"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Medical_Sciences_Building/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80NzgvcGFnZXMvcGFnZV8wL2ZpbGVzL01lZGljYWwlMjBTY2llbmNlcyUyMEJ1aWxkaW5nJTIwMy50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1307,
+                "width": 1912,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy80NzgvcGFnZXMvcGFnZV8wL2ZpbGVzL01lZGljYWwlMjBTY2llbmNlcyUyMEJ1aWxkaW5nJTIwMy50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Medical_Sciences_Building/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

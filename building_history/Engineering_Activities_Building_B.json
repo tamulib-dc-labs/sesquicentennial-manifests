@@ -1,0 +1,187 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Engineering_Activities_Building_B.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Engineering Activities Building B"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Alternative Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Beasley Laboratory"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Built"
+        ]
+      },
+      "value": {
+        "en": [
+          "1949"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Razed"
+        ]
+      },
+      "value": {
+        "en": [
+          "Present"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Facts"
+        ]
+      },
+      "value": {
+        "en": [
+          "Engineering Activities Building B was built in 1949 at a cost of $65,000. Engineering Activities Building A and C were built in 1954. Originally named the Beasley Laboratory, it was used for cotton research and housed a genetics laboratory, a seed storage and general work room and a potting room. It included two greenhouses with a total of 4,590 squre feet to allow year-round study of live cotton plants."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Engineering Activities Building B was built in 1949 at a cost of $65,000. Engineering Activities Building A and C were built in 1954. Originally named the Beasley Laboratory, it was used for cotton research and housed a genetics laboratory, a seed storage and general work room and a potting room. It included two greenhouses with a total of 4,590 squre feet to allow year-round study of live cotton plants."
+    ]
+  },
+  "navDate": "1949-01-01T00:00:00+00:00",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Engineering_Activities_Building_B/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Engineering Activities Building B"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.33744207650912,
+            30.615656680481536
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMTcvcGFnZXMvcGFnZV8wL2ZpbGVzL0JlYXNsZXklMjAxLnRpZg==/full/926,/0/default.jpg",
+      "type": "Image",
+      "height": 664,
+      "width": 926,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMTcvcGFnZXMvcGFnZV8wL2ZpbGVzL0JlYXNsZXklMjAxLnRpZg==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Engineering_Activities_Building_B/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Beasley 1.tif"
+        ]
+      },
+      "height": 2654,
+      "width": 3704,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Photograph Date"
+            ]
+          },
+          "value": {
+            "en": [
+              "ca 1949"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Filename"
+            ]
+          },
+          "value": {
+            "en": [
+              "Beasley 1.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Ark"
+            ]
+          },
+          "value": {
+            "en": [
+              "https://n2t.net/ark:/81423/d2dp5h"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Engineering_Activities_Building_B/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMTcvcGFnZXMvcGFnZV8wL2ZpbGVzL0JlYXNsZXklMjAxLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2654,
+                "width": 3704,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8xMTcvcGFnZXMvcGFnZV8wL2ZpbGVzL0JlYXNsZXklMjAxLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/sesquicentennial_manifests/building_history/Engineering_Activities_Building_B/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
