@@ -205,13 +205,13 @@ all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2
 
 [[package]]
 name = "iiif-prezi3"
-version = "2.0.0"
+version = "2.0.1"
 description = "IIIF Presentation v3 API implementation"
 optional = false
 python-versions = ">=3"
 files = [
-    {file = "iiif_prezi3-2.0.0-py3-none-any.whl", hash = "sha256:e22f207ef8d0d1a4669560d4606953b4203c8506cab4a01266164ba57363c7e2"},
-    {file = "iiif_prezi3-2.0.0.tar.gz", hash = "sha256:27365e10487701905fa432f72adc3e04f84f03fd5ad9bcfde0c99386669061f0"},
+    {file = "iiif_prezi3-2.0.1-py3-none-any.whl", hash = "sha256:0ac75fdf9d28698a01f14bf8922c71a792b9cf921b8b5513c2cc9ca22cf173eb"},
+    {file = "iiif_prezi3-2.0.1.tar.gz", hash = "sha256:687d1b47ca163a6c9419f821f9db7fd28ec5fd3a862806ff747d766e3aae4cc3"},
 ]
 
 [package.dependencies]
@@ -440,4 +440,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "ced9308a83cc126942f5c9d8009a87de639ed621660ca197fbd91186ff3581fe"
+content-hash = "8416473045a72049e76f6465ab94b6033655294e2c84adbe3ca22112b1f48ff9"
